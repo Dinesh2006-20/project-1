@@ -1,0 +1,51 @@
+body{
+    font-family:"poppins",serif;
+    font-weight: 100;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+nav.heading-bar{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 25px black;
+    border-radius: 10px;
+    padding: 5px;
+}
+div.navbar-links{
+    display: flex;
+    align-content: end;
+}
+.toggle-bar{
+    display: none;
+    position: absolute;
+    top: 3%;
+    left: 1%;
+    font-size: 25px;
+}
+.one{
+    padding: 15px;
+    
+}
+.hi{
+    text-decoration:none;
+    color: black;
+    font-size: larger;
+}
+.hi:hover{
+    transition: 2s;
+    text-decoration: underline;
+}
+@media screen and (max-width:600px){
+    .toggle-bar{
+        display:block;
+    }
+   .heading{
+    position: absolute;
+    top: 0.4%;
+    left: 10%;
+   }
+    .hi{
+        display: none;
+    }
+}
