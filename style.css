@@ -49,3 +49,192 @@ div.navbar-links{
         display: none;
     }
 }
+@media screen and (min-width:600px) {
+    .heading{
+        margin-left: 40px;
+        margin-top: 7px;
+    }
+}
+div.sidescreen{
+    display: none;
+    background-color:blue;
+    color: white;
+    width: 40%;
+    height: 1000px;
+    text-align: center;
+    position: fixed;
+}
+div.sidescreen i{
+    text-align: end;
+}
+.two{
+    color: white;
+    text-decoration: none;
+   margin: 1px;
+   font-size: larger;
+}
+div.four:hover{
+    background-color: black;
+    cursor: pointer;
+   
+}
+#xmark{
+    position: absolute;
+    right: 5%;
+    top: 1%;
+    cursor: pointer;
+}
+@media screen and (max-width:600px) {
+.search-engine{
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+.input-search{
+    position: relative;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:90%;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+.input-search+i{
+    position: absolute;
+    top: 16.5%;
+    left: 60px;
+    transform: translateY(-50%);
+}
+}
+@media screen and (min-width:600px) {
+    .search-engine{
+        padding: 10px;
+        margin: 20px;
+        text-align: center;
+    }
+    .input-search{
+        position: relative;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width:90%;
+        border-radius: 25px;
+        border: 1px solid black;
+    }
+    .input-search+i{
+        position: absolute;
+        top: 24.5%;
+        left: 65px;
+        transform: translateY(-50%);
+    }
+}
+@media screen and (min-width:700px) {
+    .search-engine{
+        padding: 10px;
+        margin: 20px;
+        text-align: center;
+    }
+    .input-search{
+        position: relative;
+        padding-left: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width:90%;
+        border-radius: 25px;
+        border: 1px solid black;
+    }
+    .input-search+i{
+        position: absolute;
+        top: 21.7%;
+        left: 110px;
+        transform: translateY(-50%);
+    }
+}
+@media screen and (min-width:650px) {
+    .search-engine{
+        padding: 10px;
+        margin: 20px;
+        text-align: center;
+    }
+    .input-search{
+        position: relative;
+        padding-left: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width:90%;
+        border-radius: 25px;
+        border: 1px solid black;
+    }
+    .input-search+i{
+        position: absolute;
+        top: 25%;
+        left: 80px;
+        transform: translateY(-50%);
+    }
+}
+@media screen and (min-width:750px) {
+    .search-engine{
+        padding: 10px;
+        margin: 20px;
+        text-align: center;
+    }
+    .input-search{
+        position: relative;
+        padding-left: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width:90%;
+        border-radius: 25px;
+        border: 1px solid black;
+    }
+    .input-search+i{
+        position: absolute;
+        top: 21%;
+        left: 80px;
+        transform: translateY(-50%);
+    }
+}
+@media screen and (min-width:800px) {
+    .search-engine{
+        padding: 10px;
+        margin: 20px;
+        text-align: center;
+    }
+    .input-search{
+        position: relative;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width:90%;
+        border-radius: 25px;
+        border: 1px solid black;
+    }
+    .input-search+i{
+        position: absolute;
+        top: 20.5%;
+        left: 85px;
+        transform: translateY(-50%);
+    }
+}
+@media screen and (min-width:980px) {
+    .search-engine{
+        padding: 10px;
+        margin: 20px;
+        text-align: center;
+    }
+    .input-search{
+        position: relative;
+        padding-left: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width:90%;
+        border-radius: 25px;
+        border: 1px solid black;
+    }
+    .input-search+i{
+        position: absolute;
+        top: 20.7%;
+        left: 110px;
+        transform: translateY(-50%);
+    }
+}
