@@ -4,17 +4,24 @@ body{
     font-style: normal;
     padding: 0;
     margin: 0;
+    
 }
 nav.heading-bar{
     display: flex;
     justify-content: space-between;
     box-shadow: 0px 0px 25px black;
-    border-radius: 10px;
+    border-radius:10px;
     padding: 5px;
+   
 }
 div.navbar-links{
     display: flex;
     align-content: end;
+    color: black;
+    font-weight: 200;
+}
+.one:hover{
+    opacity: 0.5;
 }
 .toggle-bar{
     display: none;
@@ -22,6 +29,7 @@ div.navbar-links{
     top: 3%;
     left: 1%;
     font-size: 25px;
+    cursor: pointer;
 }
 .one{
     padding: 15px;
@@ -37,6 +45,9 @@ div.navbar-links{
     text-decoration: underline;
 }
 @media screen and (max-width:600px){
+    .heading-bar{
+        width: 100%;
+    }
     .toggle-bar{
         display:block;
     }
@@ -60,9 +71,10 @@ div.sidescreen{
     background-color:blue;
     color: white;
     width: 40%;
-    height: 1000px;
+    height: 100%;
     text-align: center;
-    position: fixed;
+   position: fixed;
+   z-index: 1;
 }
 div.sidescreen i{
     text-align: end;
@@ -101,7 +113,7 @@ div.four:hover{
 }
 .input-search+i{
     position: absolute;
-    top: 16.5%;
+    top: 17%;
     left: 60px;
     transform: translateY(-50%);
 }
@@ -137,8 +149,8 @@ div.four:hover{
     .input-search{
         position: relative;
         padding-left: 40px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         width:90%;
         border-radius: 25px;
         border: 1px solid black;
@@ -159,8 +171,8 @@ div.four:hover{
     .input-search{
         position: relative;
         padding-left: 40px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         width:90%;
         border-radius: 25px;
         border: 1px solid black;
@@ -181,8 +193,8 @@ div.four:hover{
     .input-search{
         position: relative;
         padding-left: 40px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         width:90%;
         border-radius: 25px;
         border: 1px solid black;
@@ -225,8 +237,8 @@ div.four:hover{
     .input-search{
         position: relative;
         padding-left: 40px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         width:90%;
         border-radius: 25px;
         border: 1px solid black;
@@ -236,5 +248,60 @@ div.four:hover{
         top: 20.7%;
         left: 110px;
         transform: translateY(-50%);
+    }
+}
+.btn{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 5px;
+    display: flex;
+}
+.btn button{
+    padding: 10px;
+    width: 40%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.bt{
+    background-color: blue;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+   
+}
+.img{
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 1s;
+}
+@media screen and (max-width:600px){
+    .img img{
+        width:150px;
+        cursor: pointer;
+        transition: 0s;
+        height: 200px;
+
+    }
+    .img:hover{
+        scale: 1.2;
+    }
+}
+@media screen and (min-width:600px) {
+    .img img{
+        width:200px;
+        cursor: pointer;
+        transition: 0s;
+        height: 300px;
+
+    }
+    .img:hover{
+        scale: 1.2;
     }
 }
