@@ -1,0 +1,329 @@
+body{
+    padding: 0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vw;
+    text-align: center;
+    align-items: center;
+}
+@media screen and (max-width:600px) {
+    div.login{
+        display:block;
+    }
+    div.box{
+        padding: 0px;
+        background-color: aliceblue;
+        height: 600px;
+    
+    }
+    .heading{
+        background-color: blue;
+        padding: 10px;
+        width: 94%;
+        left: 0;
+    }
+    .title{
+        padding: 10px;
+        font-size:2.5rem;
+    }
+    .input-box{
+        padding: 10px;
+        text-align: left;
+        margin-left: 20%;
+    }
+    .input-box input{
+        padding: 5px;
+        width: 80%;
+    }
+    .checker{
+        padding: 5px;
+        text-align: left;
+        margin-left: 20%;
+    }
+    #revel{
+        margin-left: 2%;
+    }
+    .sign{
+        margin: 10px;
+    }
+    .sign button{
+        text-decoration: none;
+        margin: 5px;
+        color:darkblue;
+        border: none;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .sign button:hover{
+        text-decoration: underline;
+    }
+    .sign button:active{
+        color: red;
+    }
+    .forgot{
+        text-align: left;
+        margin: 30px;
+        margin-left: 10%;
+    }
+    .forgot a{
+        text-decoration: none;
+    }
+    .forgot a:hover{
+        text-decoration: underline;
+    }
+    .signin{
+        text-align: left;
+        margin: 10px;
+        margin-left:22%;  
+    }
+    .signin button{
+        width: 82%;
+        padding: 7px;
+        background-color: blue;
+        color: azure;
+        border: 1px solid black;
+        cursor: pointer;
+        font-size: 15px;
+    }
+   
+}
+@media screen and (min-width:600px) {
+    div.login{
+        display:block;
+    }
+    body{
+        height: 50vw;
+    }
+    div.box{
+        width: 50%;
+        background-color: aliceblue;
+        height: 600px;
+        position: absolute;
+        top: 8%;
+        left: 25%;
+        border-radius: 20px;
+    
+    }
+    .heading{
+        background-color: blue;
+        padding: 10px;
+        width: 97.2%;
+        left: 0;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    .title{
+        padding: 10px;
+        font-size:2.5rem;
+    }
+    .input-box{
+        padding: 10px;
+        text-align: left;
+        margin-left: 20%;
+    }
+    .input-box input{
+        padding: 5px;
+        width: 80%;
+    }
+    .checker{
+        padding: 5px;
+        text-align: left;
+        margin-left: 20%;
+    }
+    #revel{
+        margin-left: 2%;
+    }
+    .signup{
+        margin: 10px;
+    }
+    .sign button{
+        text-decoration: none;
+        margin: 5px;
+        color:darkblue;
+        border: none;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .sign button:hover{
+        text-decoration: underline;
+    }
+    .sign button:active{
+        color: red;
+    }
+    .forgot{
+        text-align: left;
+        margin: 30px;
+        margin-left: 10%;
+    }
+    .forgot a{
+        text-decoration: none;
+    }
+    .forgot a:hover{
+        text-decoration: underline;
+    }
+    .signin{
+        text-align: left;
+        margin: 10px;
+        margin-left:22%;  
+    }
+    .signin button{
+        width: 82%;
+        padding: 7px;
+        background-color: blue;
+        color: azure;
+        border: 1px solid black;
+        cursor: pointer;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:600px) {
+    div.signup{
+        display:none;
+    }
+    div.box{
+        padding: 0px;
+        background-color: aliceblue;
+        height: 600px;
+    
+    }
+    .heading{
+        background-color: blue;
+        padding: 10px;
+        width: 94%;
+        left: 0;
+    }
+    .title{
+        padding: 10px;
+        font-size:2.5rem;
+    }
+    .input-box{
+        padding: 10px;
+        text-align: left;
+        margin-left: 20%;
+    }
+    .input-box input{
+        padding: 5px;
+        width: 80%;
+    }
+    .checker{
+        padding: 5px;
+        text-align: left;
+        margin-left: 20%;
+    }
+    #revel{
+        margin-left: 2%;
+    }
+    .sign{
+        margin: 10px;
+    }
+    .sign a{
+        text-decoration: none;
+        margin: 5px;
+    }
+    .signup a:hover{
+        text-decoration: underline;
+    }
+    .signup a:active{
+        color: red;
+    }
+    .forgot{
+        text-align: left;
+        margin: 30px;
+        margin-left: 10%;
+    }
+    .forgot a{
+        text-decoration: none;
+    }
+    .forgot a:hover{
+        text-decoration: underline;
+    }
+    .signin{
+        text-align: left;
+        margin: 10px;
+        margin-left:22%;  
+    }
+    .signin button{
+        width: 82%;
+        padding: 7px;
+        background-color: blue;
+        color: azure;
+        border: 1px solid black;
+        cursor: pointer;
+    }  
+}
+@media screen and (min-width:600px) {
+    div.signup{
+        display:none;
+    }
+    div.box{
+        padding: 0px;
+        background-color: aliceblue;
+        height: 600px;
+    
+    }
+    .heading{
+        background-color: blue;
+        padding: 10px;
+        width: 94%;
+        left: 0;
+    }
+    .title{
+        padding: 10px;
+        font-size:2.5rem;
+    }
+    .input-box{
+        padding: 10px;
+        text-align: left;
+        margin-left: 20%;
+    }
+    .input-box input{
+        padding: 5px;
+        width: 80%;
+    }
+    .checker{
+        padding: 5px;
+        text-align: left;
+        margin-left: 20%;
+    }
+    #revel{
+        margin-left: 2%;
+    }
+    .sign{
+        margin: 10px;
+    }
+    .sign a{
+        text-decoration: none;
+        margin: 5px;
+    }
+    .signup a:hover{
+        text-decoration: underline;
+    }
+    .signup a:active{
+        color: red;
+    }
+    .forgot{
+        text-align: left;
+        margin: 30px;
+        margin-left: 10%;
+    }
+    .forgot a{
+        text-decoration: none;
+    }
+    .forgot a:hover{
+        text-decoration: underline;
+    }
+    .signin{
+        text-align: left;
+        margin: 10px;
+        margin-left:22%;  
+    }
+    .signin button{
+        width: 82%;
+        padding: 7px;
+        background-color: blue;
+        color: azure;
+        border: 1px solid black;
+        cursor: pointer;
+    }  
+}

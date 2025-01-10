@@ -24,3 +24,11 @@ function func3() {
     grocery.style.backgroundColor="white";
     image.style.display="block";
 }
+function radiof() {
+    const a=document.querySelector(".image-gallery");
+    a.style.display="none";
+}
+function radiom() {
+    const a=document.querySelector(".image-gallery");
+    a.style.display="block";
+}
