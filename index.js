@@ -25,8 +25,8 @@ function func3() {
     image.style.display="block";
 }
 function radiof() {
-    const a=document.querySelector(".image-gallery");
-    a.style.display="none";
+    const b=document.querySelector(".image-gallery");
+    b.style.display="none";
 }
 function radiom() {
     const a=document.querySelector(".image-gallery");
