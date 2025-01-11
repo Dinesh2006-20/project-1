@@ -26,9 +26,19 @@ function func3() {
 }
 function radiof() {
     const b=document.querySelector(".image-gallery");
+    const a=document.querySelector(".female-gallery")
     b.style.display="none";
+    a.style.display="block"
 }
 function radiom() {
     const a=document.querySelector(".image-gallery");
+    const b=document.querySelector(".female-gallery")
     a.style.display="block";
+    b.style.display="none";
+}
+function radios() {
+    const a=document.querySelector(".image-gallery");
+    const b=document.querySelector(".female-gallery")
+    a.style.display="none";
+    b.style.display="none";
 }

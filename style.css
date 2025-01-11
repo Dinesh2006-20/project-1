@@ -287,24 +287,24 @@ div.four:hover{
 @media screen and (max-width:600px){
     .img img{
         width:150px;
-        cursor: pointer;
         transition: 0s;
         height: 200px;
 
     }
     .img:hover{
+        cursor: pointer;
         scale: 1.2;
     }
 }
 @media screen and (min-width:600px) {
     .img img{
         width:150px;
-        cursor: pointer;
         transition: 0s;
         height: 300px;
 
     }
     .img:hover{
         scale: 1.2;
+        cursor: pointer;
     }
 }
