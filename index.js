@@ -63,3 +63,33 @@ function radios() {
     a.style.display="none";
     b.style.display="none";
 }
+function contact() {
+    const e=document.querySelector(".btn")
+    const f=document.querySelector(".radio")
+    const a=document.querySelector(".image-gallery");
+    const b=document.querySelector(".Female")
+    const c=document.querySelector(".Shoe");
+    const d=document.querySelector(".contactpage")
+    e.style.display="none"
+    c.style.display="none";
+    a.style.display="none";
+    b.style.display="none";
+    a.style.display="none"
+    d.style.display="block"
+    f.style.display="none"
+}
+function home() {
+    const e=document.querySelector(".btn")
+    const f=document.querySelector(".radio")
+    const a=document.querySelector(".image-gallery");
+    const b=document.querySelector(".Female")
+    const c=document.querySelector(".Shoe");
+    const d=document.querySelector(".contactpage")
+    e.style.display="block"
+    c.style.display="block";
+    a.style.display="block";
+    b.style.display="block";
+    a.style.display="block"
+    d.style.display="block"
+    f.style.display="block"
+}
