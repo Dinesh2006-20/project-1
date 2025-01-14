@@ -6,7 +6,6 @@ function func2() {
     const b=document.querySelector(".sidescreen");
     b.style.display="none";
 }
-
 function func4() {
     const image=document.querySelector(".image-gallery")
     const fashion=document.querySelector(".bt")

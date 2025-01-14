@@ -20,8 +20,16 @@ body{
     .heading{
         background-color: blue;
         padding: 10px;
-        width: 94%;
+        width: 100%;
         left: 0;
+    }
+    .love{
+        padding: 10px;
+        position: absolute;
+        top: 4%;
+        left: 2%;
+        background-color: blue;
+        border: none;
     }
     .title{
         padding: 10px;
@@ -113,6 +121,14 @@ body{
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
     }
+    .love{
+        padding: 10px;
+        position: absolute;
+        top: 4%;
+        left: 2%;
+        background-color: blue;
+        border: none;
+    }
     .title{
         padding: 10px;
         font-size:2.5rem;
@@ -193,6 +209,14 @@ body{
         width: 94%;
         left: 0;
     }
+    .love{
+        padding: 10px;
+        position: absolute;
+        top: 4%;
+        left: 2%;
+        background-color: blue;
+        border: none;
+    }
     .title{
         padding: 10px;
         font-size:2.5rem;
@@ -267,6 +291,14 @@ body{
         padding: 10px;
         width: 94%;
         left: 0;
+    }
+    .love{
+        padding: 10px;
+        position: absolute;
+        top: 4%;
+        left: 2%;
+        background-color: blue;
+        border: none;
     }
     .title{
         padding: 10px;
